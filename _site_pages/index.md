@@ -1,7 +1,7 @@
 ---
 layout: home
 title: About
-description: "About Lee seungjoon, undergraduate student at Kyung Hee University."
+description: "About Lee SeungJoon, undergraduate student at Kyung Hee University."
 permalink: /
 ---
 
@@ -29,12 +29,13 @@ permalink: /
 
   <section id="publications">
     <div class="section-title">Publications</div>
+    <div class="pub-legend">* equal contribution · † corresponding author</div>
     <div class="pub-list">
       <div class="pub-entry">
         <img class="pub-thumb" src="{{ '/images/DB-Fusion.png' | relative_url }}" alt="DB-Fusion overview">
         <div class="pub-body">
           <div class="pub-title">DB-Fusion: Dual-Balanced Sensor Fusion for Multimodal 3D Object Detection</div>
-          <div class="pub-authors"><strong><u>SeungJoon Lee</u></strong>, Taeyeong Kim, Useok Choi, Seungjae Kim, Chanse Oh, MyeongAh Cho (Corresponding author)</div>
+          <div class="pub-authors"><strong><u>SeungJoon Lee*</u></strong>, Taeyoung Kim*, Useok Choi*, Seungjae Kim, Chanse Oh, MyeongAh Cho†</div>
           <div class="pub-meta">
             <span class="venue-badge preprint">Under review</span>
           </div>
@@ -45,7 +46,7 @@ permalink: /
         <img class="pub-thumb" src="{{ '/images/Towards.png' | relative_url }}" alt="Consistency models overview">
         <div class="pub-body">
           <div class="pub-title">Towards Efficient Consistency Models via Variance-Reduced Distillation</div>
-          <div class="pub-authors">Useok Choi, <strong><u>SeungJoon Lee</u></strong>, MyeongAh Cho (Corresponding author)</div>
+          <div class="pub-authors">Useok Choi, <strong><u>SeungJoon Lee</u></strong>, MyeongAh Cho†</div>
           <div class="pub-meta">
             <span class="venue-badge preprint">Under review</span>
           </div>
@@ -56,7 +57,7 @@ permalink: /
         <img class="pub-thumb" src="{{ '/images/plugtrack.png' | relative_url }}" alt="PlugTrack overview">
         <div class="pub-body">
           <div class="pub-title">PlugTrack: Multi-Perceptive Motion Analysis for Adaptive Fusion in Multi-Object Tracking</div>
-          <div class="pub-authors">Seungjae Kim, <strong><u>SeungJoon Lee</u></strong>, MyeongAh Cho (Corresponding author)</div>
+          <div class="pub-authors">Seungjae Kim, <strong><u>SeungJoon Lee</u></strong>, MyeongAh Cho†</div>
           <div class="pub-meta">
             <span class="venue-badge conf">AAAI 2026</span>
             <div class="pub-links">
@@ -71,7 +72,7 @@ permalink: /
         <img class="pub-thumb" src="{{ '/images/flexseg.png' | relative_url }}" alt="FlexSeg overview">
         <div class="pub-body">
           <div class="pub-title">Do We Need Perfect Data? Leveraging Noise for Domain Generalized Segmentation</div>
-          <div class="pub-authors">Taeyeong Kim, <strong><u>SeungJoon Lee</u></strong>, Jung Uk Kim (Corresponding author), MyeongAh Cho (Corresponding author)</div>
+          <div class="pub-authors">Taeyeong Kim, <strong><u>SeungJoon Lee</u></strong>, Jung Uk Kim†, MyeongAh Cho†</div>
           <div class="pub-meta">
             <span class="venue-badge conf">AAAI 2026</span>
             <div class="pub-links">

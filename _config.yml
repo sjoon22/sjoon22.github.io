@@ -4,7 +4,7 @@
 # GitHub Pages URL:
 # - User/org site (repo name: USERNAME.github.io): keep baseurl "".
 # - Project site (e.g. username.github.io/REPO/): set baseurl: "/REPO" (leading slash, no trailing slash).
-title: "Lee seungjoon"
+title: "Lee SeungJoon"
 description: "Undergraduate student at Kyung Hee University"
 url: ""
 baseurl: ""
