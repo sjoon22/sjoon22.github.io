@@ -107,7 +107,7 @@ permalink: /
   </section>
 
   <section>
-    <div class="section-title">Honors &amp; Awards</div>
+    <div class="section-title">Awards &amp; Certifications</div>
     <div class="honor-list">
       <div class="honor-entry">
         <div>
@@ -115,6 +115,13 @@ permalink: /
           <div class="honor-sub">Korea Software Congress (KSC 2025)</div>
         </div>
         <div class="honor-date">2025</div>
+      </div>
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">ADsP (Advanced Data Analytics Semi-Professional)</div>
+          <div class="honor-sub">Korea Data Agency (KDATA)</div>
+        </div>
+        <div class="honor-date">2024.05</div>
       </div>
 
     </div>
