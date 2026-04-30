@@ -38,6 +38,9 @@ permalink: /
           <div class="pub-authors"><strong><u>SeungJoon Lee*</u></strong>, Taeyoung Kim*, Useok Choi*, Seungjae Kim, Chanse Oh, MyeongAh Cho†</div>
           <div class="pub-meta">
             <span class="venue-badge preprint">Under review</span>
+            <div class="pub-links">
+              <a class="pub-link" href="{{ '/pdf/DB-Fusion.pdf' | relative_url }}" target="_blank" rel="noopener">Paper</a>
+            </div>
           </div>
         </div>
       </div>
@@ -49,6 +52,9 @@ permalink: /
           <div class="pub-authors">Useok Choi, <strong><u>SeungJoon Lee</u></strong>, MyeongAh Cho†</div>
           <div class="pub-meta">
             <span class="venue-badge preprint">Under review</span>
+            <div class="pub-links">
+              <a class="pub-link" href="{{ '/pdf/Towards.pdf' | relative_url }}" target="_blank" rel="noopener">Paper</a>
+            </div>
           </div>
         </div>
       </div>
