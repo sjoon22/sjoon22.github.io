@@ -107,6 +107,41 @@ permalink: /
   </section>
 
   <section>
+    <div class="section-title">Extracurricular Activities</div>
+    <div class="activity-list">
+      <div class="activity-entry">
+        <div class="activity-header">
+          <div>
+            <div class="activity-title">
+              <a href="https://www.khuda.co.kr/" target="_blank" rel="noopener">Kyung Hee University Data Analysis &amp; Artificial Intelligence Club (KHUDA)</a>
+            </div>
+            <div class="activity-sub">Student club for data analysis and artificial intelligence</div>
+          </div>
+        </div>
+        <div class="activity-roles">
+          <div class="activity-role">
+            <div>
+              <div class="activity-role-heading">
+                <div class="activity-role-title">Computer Vision Track Leader</div>
+                <a class="pub-link activity-link" href="{{ '/cv-track/' | relative_url }}">How to Learn CV?</a>
+              </div>
+              <div class="activity-role-sub">Designed and led study sessions for computer vision fundamentals</div>
+            </div>
+            <div class="activity-date">2024.07 - 2026.08</div>
+          </div>
+          <div class="activity-role">
+            <div>
+              <div class="activity-role-title">Vice President</div>
+              <div class="activity-role-sub">Supported club operations and curriculum planning</div>
+            </div>
+            <div class="activity-date">2025.01 - 2026.01</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
     <div class="section-title">Awards &amp; Certifications</div>
     <div class="honor-list">
       <div class="honor-entry">
