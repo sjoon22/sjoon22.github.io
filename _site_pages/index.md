@@ -121,7 +121,7 @@ permalink: /
           <div class="honor-title">ADsP (Advanced Data Analytics Semi-Professional)</div>
           <div class="honor-sub">Korea Data Agency (KDATA)</div>
         </div>
-        <div class="honor-date">2024.05</div>
+        <div class="honor-date">2024</div>
       </div>
 
     </div>
