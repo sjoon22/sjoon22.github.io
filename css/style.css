@@ -1181,12 +1181,12 @@ section:last-child {
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
 .activity-title {
-  font-size: 14.5px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 700;
   color: var(--text);
 }
 
@@ -1203,46 +1203,62 @@ section:last-child {
   text-underline-offset: 2px;
 }
 
-.activity-sub,
-.activity-role-sub {
+.activity-sub {
   font-size: 12.5px;
   color: var(--text-mid);
   margin-top: 2px;
 }
 
-.activity-link {
-  flex-shrink: 0;
-  margin-top: 1px;
-}
-
 .activity-roles {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
+  margin-top: 8px;
 }
 
 .activity-role {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 16px;
+  align-items: baseline;
+  gap: 18px;
+}
+
+.activity-role-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 260px;
+  flex-wrap: wrap;
 }
 
 .activity-role-title {
   font-size: 13.5px;
-  font-weight: 500;
-  color: var(--text);
+  font-weight: 600;
+  color: var(--text-mid);
 }
 
-.activity-role-heading {
-  display: flex;
+.activity-material-link,
+.main .activity-material-link {
+  display: inline-flex;
   align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-light);
+  border: 1px solid #bfdbfe;
+  border-radius: 999px;
+  padding: 3px 10px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.activity-material-link:hover,
+.main .activity-material-link:hover {
+  background: #dbeafe;
+  text-decoration: none;
 }
 
 .activity-date {
-  font-size: 12.5px;
+  font-size: 13px;
   color: var(--text-light);
   flex-shrink: 0;
   font-weight: 500;
@@ -1686,8 +1702,8 @@ footer {
     gap: 6px;
   }
 
-  .activity-link {
-    margin-top: 4px;
+  .activity-role-main {
+    min-width: 0;
   }
 
   .material-card,

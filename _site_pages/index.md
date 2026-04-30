@@ -120,19 +120,15 @@ permalink: /
         </div>
         <div class="activity-roles">
           <div class="activity-role">
-            <div>
-              <div class="activity-role-heading">
-                <div class="activity-role-title">Computer Vision Track Leader</div>
-                <a class="pub-link activity-link" href="{{ '/cv-track/' | relative_url }}">How to Learn CV?</a>
-              </div>
-              <div class="activity-role-sub">Designed and led study sessions for computer vision fundamentals</div>
+            <div class="activity-role-main">
+              <div class="activity-role-title">Computer Vision Track Leader</div>
+              <a class="activity-material-link" href="{{ '/cv-track/' | relative_url }}">How I Led the CV Track</a>
             </div>
             <div class="activity-date">2024.07 - 2026.08</div>
           </div>
           <div class="activity-role">
-            <div>
+            <div class="activity-role-main">
               <div class="activity-role-title">Vice President</div>
-              <div class="activity-role-sub">Supported club operations and curriculum planning</div>
             </div>
             <div class="activity-date">2025.01 - 2026.01</div>
           </div>
