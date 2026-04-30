@@ -1,5 +1,5 @@
 /* ================================================
-   Glanceyes-style redesign (reference)
+   Personal academic homepage
    Inter-based, CSS-variable-driven design system
    ================================================ */
 
@@ -29,16 +29,16 @@ button {
 
 /* Variables */
 :root {
-  --bg: #fff;
-  --bg-alt: #f8f9fa;
+  --bg: #fbfcff;
+  --bg-alt: #f3f6fb;
   --surface: #ffffff;
-  --text: #1a1d23;
-  --text-mid: #52596b;
-  --text-light: #8e96a8;
-  --accent: #1d4ed8;
-  --accent-light: #eff4ff;
-  --border: #e5e8ef;
-  --hero-bg: #0f1b2d;
+  --text: #18202f;
+  --text-mid: #566174;
+  --text-light: #8993a6;
+  --accent: #2563eb;
+  --accent-light: #eef5ff;
+  --border: #dfe6f1;
+  --hero-bg: #142033;
   --radius: 8px;
   --career: #dcfce7;
   --paper: #dbeafe;
@@ -65,15 +65,16 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: var(--hero-bg);
-  height: 54px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(14px);
+  height: 62px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(223, 230, 241, 0.9);
 }
 
 .nav-inner {
-  max-width: 900px;
+  max-width: 980px;
   margin: 0 auto;
   padding: 0 28px;
   width: 100%;
@@ -83,11 +84,11 @@ body {
 }
 
 .nav-logo {
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text);
   text-decoration: none;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
 }
 
 .nav-links {
@@ -118,9 +119,19 @@ body {
 /* Home Hero */
 .hero {
   position: relative;
-  padding: 72px 28px 68px;
+  padding: 84px 28px 72px;
   overflow: hidden;
   background: var(--hero-bg);
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    linear-gradient(90deg, rgba(15, 24, 38, 0.78), rgba(15, 24, 38, 0.48)),
+    linear-gradient(0deg, rgba(15, 24, 38, 0.32), rgba(15, 24, 38, 0.06));
 }
 
 .hero-bg {
@@ -128,7 +139,8 @@ body {
   inset: 0;
   background-size: cover;
   background-position: center center;
-  filter: brightness(0.42) saturate(0.9);
+  filter: brightness(0.72) saturate(1.08);
+  z-index: 0;
 }
 
 .hero-bg--cover {
@@ -138,20 +150,21 @@ body {
 .hero-inner {
   position: relative;
   z-index: 1;
-  max-width: 900px;
+  max-width: 980px;
   margin: 0 auto;
   display: flex;
   align-items: flex-start;
-  gap: 44px;
+  gap: 34px;
 }
 
 .hero-photo {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
+  width: 142px;
+  height: 172px;
+  border-radius: 18px;
   object-fit: cover;
   flex-shrink: 0;
-  border: 3px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.22);
 }
 
 .hero-text {
@@ -159,26 +172,26 @@ body {
 }
 
 .hero-name {
-  font-size: 26px;
+  font-size: 34px;
   font-weight: 700;
   color: #fff;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   line-height: 1.2;
   margin-bottom: 8px;
 }
 
 .hero-position {
-  font-size: 13.5px;
-  color: rgba(255, 255, 255, 0.65);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.72);
   margin-bottom: 16px;
   font-weight: 400;
 }
 
 .hero-bio {
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.82);
+  font-size: 14.5px;
+  color: rgba(255, 255, 255, 0.86);
   line-height: 1.7;
-  max-width: 560px;
+  max-width: 680px;
   margin-bottom: 18px;
 }
 
@@ -203,11 +216,11 @@ body {
 
 .hero-tag {
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.75);
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 20px;
-  padding: 3px 11px;
+  color: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  padding: 4px 12px;
   font-weight: 500;
 }
 
@@ -226,7 +239,7 @@ body {
   color: rgba(255, 255, 255, 0.9);
   background: rgba(255, 255, 255, 0.12);
   border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 20px;
+  border-radius: 999px;
   padding: 5px 14px;
   text-decoration: none;
   transition:
@@ -378,9 +391,9 @@ body {
 
 /* Main */
 .main {
-  max-width: 900px;
+  max-width: 980px;
   margin: 0 auto;
-  padding: 52px 28px 80px;
+  padding: 58px 28px 88px;
 }
 
 .main--narrow {
@@ -398,7 +411,7 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 980px;
   margin: 0 auto;
   width: 100%;
 }
@@ -437,13 +450,14 @@ body {
 
 /* Section titles */
 .section-title {
-  font-size: 11.5px;
+  font-size: 15px;
   font-weight: 700;
-  color: var(--text-mid);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  padding-bottom: 8px;
+  color: var(--text);
+  text-transform: none;
+  letter-spacing: 0;
+  padding: 0 0 10px 12px;
   border-bottom: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
   margin-bottom: 0px;
 }
 
@@ -452,7 +466,7 @@ body {
 }
 
 section {
-  margin-bottom: 56px;
+  margin-bottom: 62px;
   scroll-margin-top: 78px;
 }
 
