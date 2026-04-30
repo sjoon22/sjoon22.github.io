@@ -115,7 +115,7 @@ permalink: /
             <div class="activity-title">
               <a href="https://www.khuda.co.kr/" target="_blank" rel="noopener">Kyung Hee University Data Analysis &amp; Artificial Intelligence Club (KHUDA)</a>
             </div>
-            <div class="activity-sub">Student club for data analysis and artificial intelligence</div>
+            <a class="activity-website" href="https://www.khuda.co.kr/" target="_blank" rel="noopener">Website</a>
           </div>
         </div>
         <div class="activity-roles">

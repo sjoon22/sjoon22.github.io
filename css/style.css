@@ -1203,23 +1203,37 @@ section:last-child {
   text-underline-offset: 2px;
 }
 
-.activity-sub {
+.activity-website,
+.main .activity-website {
+  display: inline-block;
+  margin-top: 3px;
   font-size: 12.5px;
-  color: var(--text-mid);
-  margin-top: 2px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.activity-website:hover,
+.main .activity-website:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .activity-roles {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  margin-top: 8px;
+  margin-top: 10px;
+  padding-left: 18px;
+  border-left: 2px solid var(--border);
 }
 
 .activity-role {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: baseline;
   gap: 18px;
+  width: 100%;
 }
 
 .activity-role-main {
@@ -1262,6 +1276,8 @@ section:last-child {
   color: var(--text-light);
   flex-shrink: 0;
   font-weight: 500;
+  text-align: right;
+  justify-self: end;
 }
 
 /* Materials */
@@ -1696,14 +1712,23 @@ footer {
     flex-direction: column;
   }
 
-  .activity-header,
-  .activity-role {
+  .activity-header {
     flex-direction: column;
     gap: 6px;
   }
 
+  .activity-role {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
   .activity-role-main {
     min-width: 0;
+  }
+
+  .activity-date {
+    justify-self: start;
+    text-align: left;
   }
 
   .material-card,
