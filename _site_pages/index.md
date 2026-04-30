@@ -1,6 +1,6 @@
 ---
 layout: home
-title:
+title: About
 description: "About Lee SeungJoon, undergraduate student at Kyung Hee University."
 permalink: /
 ---
