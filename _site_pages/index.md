@@ -11,22 +11,22 @@ permalink: /
     <ul class="news-list">
       <li class="news-item">
         <span class="news-date">2026.01</span>
-        <span class="news-content">One paper received the Best Paper Award at KSC 2025.</span>
+        <span class="news-content">One paper received the Best Paper Award at <strong>KSC 2025</strong>.</span>
         <span class="news-tag award">Award</span>
       </li>
       <li class="news-item">
         <span class="news-date">2025.11</span>
-        <span class="news-content">Our "PlugTrack" paper got accepted to AAAI 2026.</span>
+        <span class="news-content">Our "PlugTrack" paper got accepted to <strong>AAAI 2026</strong>.</span>
         <span class="news-tag paper">Paper</span>
       </li>
       <li class="news-item">
         <span class="news-date">2025.11</span>
-        <span class="news-content">Our "FlexSeg" paper got accepted to AAAI 2026.</span>
+        <span class="news-content">Our "FlexSeg" paper got accepted to <strong>AAAI 2026</strong>.</span>
         <span class="news-tag paper">Paper</span>
       </li>
       <li class="news-item">
         <span class="news-date">2024.08</span>
-        <span class="news-content">Joined VS Lab as an undergraduate student at Kyung Hee University.</span>
+        <span class="news-content">Joined <strong>VS Lab</strong> as an undergraduate student at Kyung Hee University.</span>
         <span class="news-tag career">Lab</span>
       </li>
     </ul>
@@ -94,7 +94,8 @@ permalink: /
         </div>
       </div>
 
-      <div class="pub-entry pub-entry--text">
+      <div class="pub-entry">
+        <img class="pub-thumb" src="{{ '/images/BEVSeg.png' | relative_url }}" alt="BEVSeg overview">
         <div class="pub-body">
           <div class="pub-title">BEV Segmentation Prior-Guided Class-Wise Attention for 3D Object Detection in Autonomous Driving</div>
           <div class="pub-authors"><strong><u>SeungJoon Lee</u></strong>, SeungJae Kim, TaeYoung Kim, MyeongAh Cho†</div>
