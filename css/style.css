@@ -636,6 +636,10 @@ section:last-child {
   border-bottom: none;
 }
 
+.pub-entry--text {
+  padding-left: 176px;
+}
+
 .pub-entry:target {
   border-radius: 8px;
   padding: 16px 14px;
@@ -779,6 +783,11 @@ section:last-child {
 .venue-badge.preprint {
   background: #f3f4f6;
   color: #6b7280;
+}
+
+.venue-badge.award-badge {
+  background: var(--award);
+  color: #92400e;
 }
 
 .pub-links {
@@ -1689,6 +1698,10 @@ footer {
 
   .pub-entry {
     flex-direction: column;
+  }
+
+  .pub-entry--text {
+    padding-left: 0;
   }
 
   .pub-thumb {

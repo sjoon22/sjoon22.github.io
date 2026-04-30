@@ -10,6 +10,11 @@ permalink: /
     <div class="section-title">News</div>
     <ul class="news-list">
       <li class="news-item">
+        <span class="news-date">2026.01</span>
+        <span class="news-content">One paper received the Best Paper Award at KSC 2025.</span>
+        <span class="news-tag award">Award</span>
+      </li>
+      <li class="news-item">
         <span class="news-date">2025.11</span>
         <span class="news-content">Our "PlugTrack" paper got accepted to AAAI 2026.</span>
         <span class="news-tag paper">Paper</span>
@@ -84,6 +89,20 @@ permalink: /
             <div class="pub-links">
               <a class="pub-link" href="https://arxiv.org/abs/2511.22948" target="_blank" rel="noopener">Paper</a>
               <a class="pub-link" href="https://github.com/VisualScienceLab-KHU/FLEX-Seg" target="_blank" rel="noopener">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-entry pub-entry--text">
+        <div class="pub-body">
+          <div class="pub-title">BEV Segmentation Prior-Guided Class-Wise Attention for 3D Object Detection in Autonomous Driving</div>
+          <div class="pub-authors"><strong><u>SeungJoon Lee</u></strong>, SeungJae Kim, TaeYoung Kim, MyeongAh Cho†</div>
+          <div class="pub-meta">
+            <span class="venue-badge conf">KSC 2025</span>
+            <span class="venue-badge award-badge">Best Paper Award</span>
+            <div class="pub-links">
+              <a class="pub-link" href="{{ '/pdf/BEVSeg.pdf' | relative_url }}" target="_blank" rel="noopener">Paper</a>
             </div>
           </div>
         </div>
