@@ -93,6 +93,40 @@ permalink: /
 
   <section id="projects">
     <div class="section-title">Projects</div>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-title">PPT-Application: AI-Powered Position / Pose Reconstruction System</div>
+          <a class="project-link" href="https://github.com/sjoon22/PPT-Application" target="_blank" rel="noopener">Link</a>
+        </div>
+        <div class="project-tags">
+          <span>Team Leader</span>
+          <span>Undergraduate Project</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-title">ClipBox: AI-Based Accident Video Detection Embedded System</div>
+          <a class="project-link" href="https://github.com/sjoon22/7th-CV-ClipBox" target="_blank" rel="noopener">Link</a>
+        </div>
+        <div class="project-tags">
+          <span>Team Leader</span>
+          <span>Undergraduate Project</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-title">ParkingGuard: Detecting Illegal Use of Accessible Parking Spaces via Pedestrian Analysis</div>
+          <a class="project-link" href="https://github.com/sjoon22/8th-CV-DisabledParkingGuard" target="_blank" rel="noopener">Link</a>
+        </div>
+        <div class="project-tags">
+          <span>Team Leader</span>
+          <span>Undergraduate Project</span>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section>
