@@ -18,15 +18,9 @@ collections:
   site_pages:
     output: true
   projects:
-    output: true
-    permalink: /projects/:name/
+    output: false
 
 defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: project
   - scope:
       path: "_site_pages"
     values:

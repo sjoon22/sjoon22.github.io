@@ -6,7 +6,7 @@ permalink: /
 ---
 
 <div class="container">
-  <section>
+  <section id="news">
     <div class="section-title">News</div>
     <ul class="news-list">
       <li class="news-item">
@@ -36,22 +36,63 @@ permalink: /
     </div>
   </section>
 
-  <section>
-    <div style="display:flex; align-items:baseline; justify-content:space-between;">
-      <div class="section-title" style="flex:1; margin-bottom:0; border-bottom:none; padding-bottom:0;">Selected Research</div>
-      <a href="{{ '/research/' | relative_url }}" class="section-link">All Research →</a>
+  <section id="research">
+    <div class="section-title">Research</div>
+    <div class="honor-list">
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">Trustworthy AI</div>
+          <div class="honor-sub">Reliability, uncertainty estimation, and evaluation methodology for real-world usage.</div>
+        </div>
+        <div class="honor-date">Current</div>
+      </div>
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">LLM Safety</div>
+          <div class="honor-sub">Prompt-risk analysis, safety behaviors, and robust testing protocols.</div>
+        </div>
+        <div class="honor-date">Current</div>
+      </div>
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">Multi-Modal AI</div>
+          <div class="honor-sub">Text-image reasoning reliability and consistency checks.</div>
+        </div>
+        <div class="honor-date">Current</div>
+      </div>
     </div>
-    <div style="border-top:1px solid var(--border); margin:10px 0 2px;"></div>
+
+    <div class="section-title section-title--sub">Publications</div>
     <div class="pub-list">
       <div class="pub-entry">
-        <img class="pub-thumb" src="https://placehold.co/120x72" alt="LLM safety">
+        <img class="pub-thumb" src="https://placehold.co/120x72" alt="publication template">
         <div class="pub-body">
-          <div class="pub-title">Token Safety</div>
-          <div class="pub-authors"><strong>Gaeun Ji</strong></div>
-          <div class="pub-meta"><span class="venue-badge preprint">Ongoing</span></div>
+          <div class="pub-title">[PLACEHOLDER: Paper Title]</div>
+          <div class="pub-authors">[PLACEHOLDER: Authors]</div>
+          <div class="pub-meta">
+            <span class="venue-badge preprint">[PLACEHOLDER: Venue / Status]</span>
+          </div>
         </div>
       </div>
-      
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-title">Projects</div>
+    <div class="projects-grid">
+      {% assign sorted_projects = site.projects | sort: "date" | reverse %}
+      {% for project in sorted_projects %}
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-title">{{ project.title }}</div>
+            <span class="project-org">{{ project.status }}</span>
+          </div>
+          <div class="project-subtitle">{{ project.date | date: "%Y-%m" }}</div>
+          <ul class="project-bullets">
+            <li>{{ project.summary }}</li>
+          </ul>
+        </div>
+      {% endfor %}
     </div>
   </section>
 
