@@ -619,8 +619,8 @@ section:last-child {
 
 .pub-entry {
   display: flex;
-  gap: 20px;
-  padding: 20px 0;
+  gap: 24px;
+  padding: 24px 0;
   border-bottom: 1px solid var(--border);
   align-items: flex-start;
   scroll-margin-top: 80px;
@@ -674,8 +674,8 @@ section:last-child {
 }
 
 .pub-thumb {
-  width: 108px;
-  height: 76px;
+  width: 216px;
+  height: 120px;
   border-radius: 6px;
   object-fit: contain;
   flex-shrink: 0;
@@ -689,11 +689,11 @@ section:last-child {
 }
 
 .pub-title {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   color: var(--text);
-  line-height: 1.45;
-  margin-bottom: 5px;
+  line-height: 1.35;
+  margin-bottom: 8px;
 }
 
 .pub-title a {
@@ -726,9 +726,9 @@ section:last-child {
 }
 
 .pub-authors {
-  font-size: 12.5px;
+  font-size: 16px;
   color: var(--text-mid);
-  margin-bottom: 8px;
+  margin-bottom: 14px;
   line-height: 1.5;
 }
 
@@ -745,10 +745,10 @@ section:last-child {
 }
 
 .venue-badge {
-  font-size: 11.5px;
+  font-size: 15px;
   font-weight: 700;
-  border-radius: 5px;
-  padding: 2px 8px;
+  border-radius: 8px;
+  padding: 6px 14px;
   letter-spacing: 0.02em;
   text-decoration: none;
   display: inline-block;
@@ -784,12 +784,12 @@ section:last-child {
 }
 
 .pub-link {
-  font-size: 11.5px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 600;
   color: var(--text-mid);
   border: 1px solid var(--border);
-  border-radius: 5px;
-  padding: 2px 9px;
+  border-radius: 8px;
+  padding: 5px 14px;
   text-decoration: none;
   transition:
     border-color 0.15s,
@@ -1513,9 +1513,19 @@ footer {
 
   .pub-thumb {
     width: 100%;
-    max-width: 200px;
+    max-width: 260px;
     height: auto;
-    min-height: 76px;
+    min-height: 110px;
+  }
+
+  .pub-title {
+    font-size: 16px;
+  }
+
+  .pub-authors,
+  .venue-badge,
+  .pub-link {
+    font-size: 13px;
   }
 
   .honor-entry {

@@ -1,13 +1,13 @@
 # Hero / home layout (see _layouts/home.html). Switch banner_image / profile_image
 # to /images/about/banner_image_new.jpg and /images/about/profile_image.jpg when those files exist.
-tagline: "M.S. Student"
-email: "jikhwn@gmail.com"
-github: "https://github.com/gaeunji"
-linkedin: "https://www.linkedin.com/in/gaeun-ji-033b1933a/"
-scholar: ""
-banner_image: "/images/PC_wallpaper_202003.png"
-profile_image: "/images/2026-04-10.jpg"
+tagline: "Undergraduate Student at Kyung Hee University"
+email: "diplomat3334@khu.ac.kr"
+github: "https://github.com/sjoon22"
+linkedin: "https://www.linkedin.com/in/seungjoon-%E2%80%8Dlee-900660391/"
+scholar: "https://scholar.google.com/citations?user=IjkzWVEAAAAJ&hl=ko"
+banner_image: "/images/DB-Fusion.png"
+profile_image: "/images/seungjoon.jpg"
 interest_tags:
-  - "Trustworthy AI"
-  - "LLM Safety"
-  - "Multimodal LLM"
+  - "Autonomous Driving"
+  - "3D Perception"
+  - "Reliable & Explainable AI"

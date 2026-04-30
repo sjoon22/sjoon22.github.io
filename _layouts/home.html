@@ -21,7 +21,7 @@ default: '/images/about/profile_image.jpg' %}
     />
     <div class="hero-text">
       <div class="hero-name">{{ site.title }}</div>
-      <div class="hero-position">{{ h.tagline | default: 'M.S. Student' }}</div>
+      <div class="hero-position">{{ h.tagline | default: 'Undergraduate Student' }}</div>
       <div class="hero-body">
         <div class="hero-bio">{% include home-bio.html %}</div>
         <div class="hero-tags">
@@ -31,7 +31,7 @@ default: '/images/about/profile_image.jpg' %}
         </div>
         <div class="hero-links">
           <a
-            href="{{ '/pdf/Tyranno_CV.pdf' | relative_url }}"
+            href="{{ '/pdf/CV.pdf' | relative_url }}"
             target="_blank"
             class="hero-link"
             rel="noopener"
@@ -115,14 +115,3 @@ default: '/images/about/profile_image.jpg' %}
 </section>
 
 <main class="main">{{ content }}</main>
-
-<script>
-  function toggleMoreNews() {
-    var btn = document.getElementById("moreNewsBtn");
-    var body = document.getElementById("moreNewsBody");
-    if (!btn || !body) return;
-    var isOpen = body.classList.contains("open");
-    body.classList.toggle("open", !isOpen);
-    btn.classList.toggle("open", !isOpen);
-  }
-</script>
