@@ -31,7 +31,7 @@ permalink: /
       </li>
       <li class="news-item">
         <span class="news-date">2024.08</span>
-        <span class="news-content">Joined <strong>VS Lab</strong> as an undergraduate student at Kyung Hee University.</span>
+        <span class="news-content">Joined <strong>VS Lab</strong> as an undergraduate intern at Kyung Hee University.</span>
         <span class="news-tag career">Lab</span>
       </li>
     </ul>
