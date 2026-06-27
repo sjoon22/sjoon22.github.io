@@ -61,7 +61,8 @@ permalink: /
           <div class="pub-title">Towards Efficient Consistency Models via Variance-Reduced Distillation</div>
           <div class="pub-authors">Useok Choi, <strong><u>SeungJoon Lee</u></strong>, MyeongAh Cho†</div>
           <div class="pub-meta">
-            <span class="venue-badge conf">IEEE TNNLS (IF = 8.9)</span>
+            <span class="venue-badge conf">IEEE TNNLS</span>
+            <span class="venue-badge preprint">IF = 8.9</span>
             <div class="pub-links">
               <a class="pub-link" href="{{ '/pdf/Towards.pdf' | relative_url }}" target="_blank" rel="noopener">Paper</a>
             </div>
