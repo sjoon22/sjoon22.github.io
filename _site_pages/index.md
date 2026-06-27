@@ -39,13 +39,13 @@ permalink: /
 
   <section id="publications">
     <div class="section-title">Publications</div>
-    <div class="pub-legend">* equal contribution · † corresponding author</div>
+    <div class="pub-legend">† corresponding author</div>
     <div class="pub-list">
       <div class="pub-entry">
         <img class="pub-thumb" src="{{ '/images/DB-Fusion.png' | relative_url }}" alt="DB-Fusion overview">
         <div class="pub-body">
           <div class="pub-title">DB-Fusion: Dual-Balanced Sensor Fusion for Multimodal 3D Object Detection</div>
-          <div class="pub-authors"><strong><u>SeungJoon Lee*</u></strong>, Taeyoung Kim*, Useok Choi*, Seungjae Kim, Chanse Oh, MyeongAh Cho†</div>
+          <div class="pub-authors"><strong><u>SeungJoon Lee</u></strong>, Taeyoung Kim, Useok Choi, Seungjae Kim, Chanse Oh, MyeongAh Cho†</div>
           <div class="pub-meta">
             <span class="venue-badge preprint">Under review</span>
             <div class="pub-links">
