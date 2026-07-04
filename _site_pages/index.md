@@ -11,6 +11,11 @@ permalink: /
     <ul class="news-list">
       <li class="news-item">
         <span class="news-date">2026.06</span>
+        <span class="news-content">Joined <strong><a href="https://kaist-cvml.github.io/" target="_blank" rel="noopener">CVML Lab</a></strong> as an undergraduate intern at KAIST.</span>
+        <span class="news-tag career">Lab</span>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2026.06</span>
         <span class="news-content">Our "vrCL" paper got accepted to <strong>IEEE TNNLS</strong>.</span>
         <span class="news-tag paper">Paper</span>
       </li>
@@ -31,7 +36,7 @@ permalink: /
       </li>
       <li class="news-item">
         <span class="news-date">2024.08</span>
-        <span class="news-content">Joined <strong>VS Lab</strong> as an undergraduate intern at Kyung Hee University.</span>
+        <span class="news-content">Joined <strong><a href="https://vslab.khu.ac.kr/" target="_blank" rel="noopener">VS Lab</a></strong> as an undergraduate intern at Kyung Hee University.</span>
         <span class="news-tag career">Lab</span>
       </li>
     </ul>
