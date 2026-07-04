@@ -9,5 +9,6 @@ banner_image: "/images/background.png"
 profile_image: "/images/seungjoon.jpg"
 interest_tags:
   - "Autonomous Driving"
-  - "3D Perception"
+  - "Vision-Language-Action Model"
+  - "World Model"
   - "Reliable & Explainable AI"
