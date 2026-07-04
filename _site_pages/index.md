@@ -209,17 +209,17 @@ permalink: /
       </div>
       <div class="honor-entry">
         <div>
-          <div class="honor-title">Academic Merit Scholarship</div>
-          <div class="honor-sub">Kyung Hee University — Top 3 in the department</div>
-        </div>
-        <div class="honor-date">2020 Fall, 2023 Spring, 2024 Fall, 2025 Fall</div>
-      </div>
-      <div class="honor-entry">
-        <div>
-          <div class="honor-title">Exemplary Student Scholarship</div>
+          <div class="honor-title">Exemplary Student Scholarship (Top 5 in the department)</div>
           <div class="honor-sub">Kyung Hee University</div>
         </div>
         <div class="honor-date">2024 Spring</div>
+      </div>
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">Academic Merit Scholarship (Top 3 in the department)</div>
+          <div class="honor-sub">Kyung Hee University</div>
+        </div>
+        <div class="honor-date">2020 Fall, 2023 Spring, 2024 Fall, 2025 Fall</div>
       </div>
       <div class="honor-entry">
         <div>
