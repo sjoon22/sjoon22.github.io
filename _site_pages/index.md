@@ -202,10 +202,10 @@ permalink: /
     <div class="honor-list">
       <div class="honor-entry">
         <div>
-          <div class="honor-title">Best Paper Award (Undergraduate Paper Competition)</div>
-          <div class="honor-sub">Korea Software Congress (KSC 2025)</div>
+          <div class="honor-title">Academic Merit Scholarship (Top 3 in the department)</div>
+          <div class="honor-sub">Kyung Hee University</div>
         </div>
-        <div class="honor-date">2025</div>
+        <div class="honor-date">2020 Fall, 2023 Spring, 2024 Fall, 2025 Fall</div>
       </div>
       <div class="honor-entry">
         <div>
@@ -216,17 +216,17 @@ permalink: /
       </div>
       <div class="honor-entry">
         <div>
-          <div class="honor-title">Academic Merit Scholarship (Top 3 in the department)</div>
-          <div class="honor-sub">Kyung Hee University</div>
-        </div>
-        <div class="honor-date">2020 Fall, 2023 Spring, 2024 Fall, 2025 Fall</div>
-      </div>
-      <div class="honor-entry">
-        <div>
           <div class="honor-title">ADsP (Advanced Data Analytics Semi-Professional)</div>
           <div class="honor-sub">Korea Data Agency (KDATA)</div>
         </div>
         <div class="honor-date">2024</div>
+      </div>
+      <div class="honor-entry">
+        <div>
+          <div class="honor-title">Best Paper Award (Undergraduate Paper Competition)</div>
+          <div class="honor-sub">Korea Software Congress (KSC 2025)</div>
+        </div>
+        <div class="honor-date">2025</div>
       </div>
 
     </div>
